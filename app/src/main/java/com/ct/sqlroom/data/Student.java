@@ -1,4 +1,4 @@
-package com.ct.sqlroom;
+package com.ct.sqlroom.data;
 
 
 import androidx.room.ColumnInfo;
@@ -23,28 +23,28 @@ public class Student {
         return id;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getClassRoom() {
-        return classRoom;
-    }
-
-    public float getScore() {
-        return score;
-    }
-
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
+    public String getClassRoom() {
+        return classRoom;
+    }
+
     public void setClassRoom(String classRoom) {
         this.classRoom = classRoom;
+    }
+
+    public float getScore() {
+        return score;
     }
 
     public void setScore(float score) {
